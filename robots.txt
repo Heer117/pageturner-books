@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /admin/
+Disallow: /test/
+
+Sitemap: https://Heer117.github.io/pageturner-books/sitemap.xml

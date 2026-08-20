@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Book Collection | Pageturner Books</title>
+
+    <meta name="description"
+          content="Explore the Pageturner Books collection with books from different categories.">
+
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: Georgia, 'Times New Roman', serif;
+            background: #faf7f2;
+            color: #2b2320;
+        }
+
+        header {
+            background: #2b2320;
+            color: white;
+            text-align: center;
+            padding: 30px 20px;
+        }
+
+        main {
+            max-width: 1100px;
+            margin: auto;
+            padding: 40px 20px;
+        }
+
+        .books {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .book {
+            width: 200px;
+            background: white;
+            border: 1px solid #e0d8cc;
+            border-radius: 8px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .book img {
+            width: 170px;
+            height: 230px;
+            object-fit: cover;
+            display: block;
+            margin: auto;
+        }
+
+        .video-section {
+            max-width: 800px;
+            margin: 50px auto;
+        }
+
+        video {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Pageturner Books Collection</h1>
+    <p>Explore our featured book categories</p>
+</header>
+
+<main>
+
+    <h2>Featured Books</h2>
+
+    <section class="books">
+
+        <article class="book">
+            <img
+                src="https://placehold.co/170x230/6b7a8f/ffffff?text=Sci-Fi"
+                width="170"
+                height="230"
+                alt="Sci-Fi book"
+                loading="lazy">
+            <h3>Sci-Fi</h3>
+        </article>
+
+        <article class="book">
+            <img
+                src="https://placehold.co/170x230/b77b5b/ffffff?text=Comedy"
+                width="170"
+                height="230"
+                alt="Comedy book"
+                loading="lazy">
+            <h3>Comedy</h3>
+        </article>
+
+        <article class="book">
+            <img
+                src="https://placehold.co/170x230/756c83/ffffff?text=Drama"
+                width="170"
+                height="230"
+                alt="Drama book"
+                loading="lazy">
+            <h3>Drama</h3>
+        </article>
+
+        <article class="book">
+            <img
+                src="https://placehold.co/170x230/6b5947/ffffff?text=Action"
+                width="170"
+                height="230"
+                alt="Action book"
+                loading="lazy">
+            <h3>Action</h3>
+        </article>
+
+        <article class="book">
+            <img
+                src="https://placehold.co/170x230/554d55/ffffff?text=Horror"
+                width="170"
+                height="230"
+                alt="Horror book"
+                loading="lazy">
+            <h3>Horror</h3>
+        </article>
+
+    </section>
+
+    <section class="video-section">
+
+        <h2>Our Book Collection</h2>
+
+        <video
+            controls
+            preload="none"
+            width="800"
+            height="450">
+
+            <source
+                src="https://interactive-examples.mdn.mozilla.net/media/cc0-videos/flower.mp4"
+                type="video/mp4">
+
+            Your browser does not support the video element.
+
+        </video>
+
+    </section>
+
+</main>
+
+</body>
+</html>
